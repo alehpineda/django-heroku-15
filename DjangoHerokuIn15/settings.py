@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '7qa^asdfsdgfyy7sdaufiT^&UIhfdsi^^&1.!2^^1)0'
+SECRET_KEY = '7qa^asdfhdgayy7sdeufiJ^&UIhfdsi^^&1.!2^^1)0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -62,11 +62,11 @@ WSGI_APPLICATION = 'DjangoHerokuIn15.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'pp',
-        'USER': 'pp',
+        'NAME': 'django-dev1',
+        'USER': 'deathscythe',
         'PASSWORD': '', #might be empty string ''
         'HOST': '127.0.0.1',
-        # 'PORT': '5432',
+        #'PORT': '5432',
     }
 }
 
